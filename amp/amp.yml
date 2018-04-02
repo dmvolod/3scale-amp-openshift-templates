@@ -114,7 +114,7 @@ objects:
         openshift.io/display-name: AMP system 2.1.0-CR2-redhat-1
       from:
         kind: DockerImage
-        name: registry.access.redhat.com/3scale-amp21/system:1.4-1
+        name: registry.access.redhat.com/3scale-amp21/system
 
 - kind: ImageStream
   apiVersion: v1
@@ -135,7 +135,7 @@ objects:
         openshift.io/display-name: amp-backend 2.1.0-CR2-redhat-1
       from:
         kind: DockerImage
-        name: registry.access.redhat.com/3scale-amp21/backend:1.4-2
+        name: registry.access.redhat.com/3scale-amp21/backend
 
 - kind: ImageStream
   apiVersion: v1
@@ -156,7 +156,7 @@ objects:
         openshift.io/display-name: AMP APIcast 2.1.0-CR2-redhat-1
       from:
         kind: DockerImage
-        name: registry.access.redhat.com/3scale-amp21/apicast-gateway:1.4-2
+        name: registry.access.redhat.com/3scale-amp21/apicast-gateway
 
 - kind: ImageStream
   apiVersion: v1
@@ -177,7 +177,7 @@ objects:
         openshift.io/display-name: AMP APIcast Wildcard Router 2.1.0-CR2-redhat-1
       from:
         kind: DockerImage
-        name: registry.access.redhat.com/3scale-amp21/wildcard-router:1.4-2
+        name: registry.access.redhat.com/3scale-amp21/wildcard-router
 
 - kind: ImageStream
   apiVersion: v1
@@ -200,7 +200,7 @@ objects:
         openshift.io/display-name: AMP Zync 2.1.0-CR2-redhat-1
       from:
         kind: DockerImage
-        name: registry.access.redhat.com/3scale-amp21/zync:1.4-1
+        name: registry.access.redhat.com/3scale-amp21/zync
 
 - apiVersion: "v1"
   kind: "PersistentVolumeClaim"
